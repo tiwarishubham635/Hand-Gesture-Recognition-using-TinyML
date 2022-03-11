@@ -1,0 +1,24 @@
+body {
+  background-color: #0d5be1;
+  color: white;
+}
+
+.desc {
+  margin-top: -1vh;
+}
+
+.image-holder {
+  margin-bottom: 1vh;
+}
+
+.images {
+  margin-right: 1vw;
+}
+
+#realtimeVideo {
+  display: none;
+}
+
+.submit_button {
+  margin: 1vh;
+}
