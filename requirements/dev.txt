@@ -1,3 +1,4 @@
+-r common.txt
 Markdown==3.3.6
 MarkupSafe==2.1.0
 matplotlib==3.5.1
