@@ -1,7 +1,6 @@
 from flask import Flask, render_template, Response
 import cv2
 from helper import realtime
-from testdata import TestDataComparison
 import pandas as pd
 
 app = Flask(__name__)
@@ -27,7 +26,6 @@ def video():
 
 @app.route('/testdata', methods=['POST', 'GET'])
 def testdata():
-    TestDataComparison()
     return render_template('testdata.html')
 
 
