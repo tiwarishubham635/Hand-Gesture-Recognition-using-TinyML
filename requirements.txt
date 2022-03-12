@@ -12,10 +12,8 @@ Jinja2==3.0.3
 joblib==1.1.0
 keras==2.7.0
 Keras-Preprocessing==1.1.2
-libclang==13.0.0
 mediapipe==0.8.9.1
 numpy==1.22.3
-opencv-python==4.5.5.64
 sklearn==0.0
 Markdown==3.3.6
 MarkupSafe==2.1.0
