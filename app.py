@@ -30,4 +30,4 @@ def testdata():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=process.env.PORT || 5001)
+    app.run(debug=True)
