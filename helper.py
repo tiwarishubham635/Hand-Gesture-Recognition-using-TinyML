@@ -1,13 +1,9 @@
 import tensorflow as tf
-import tensorflow_hub as hub
 from keras.models import load_model
 
 import numpy as np
 import cv2
-import numpy as np
-import pandas as pd
 import os
-import time
 import mediapipe as mp
 
 mp_holistic = mp.solutions.holistic  # Holistic model
@@ -89,7 +85,6 @@ model = load_model('action3.h5')
 colors = [(245, 117, 16), (117, 245, 16), (16, 117, 245)]
 SAVED_MODEL = "saved_models"
 # tf.saved_model.save(model, SAVED_MODEL)
-sign_model = hub.load(SAVED_MODEL)
 TFLITE_MODEL = "tflite_models/sign.tflite"
 TFLITE_QUANT_MODEL = "tflite_models/sign_quant.tflite"
 
