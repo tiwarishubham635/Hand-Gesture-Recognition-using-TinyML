@@ -1,18 +1,7 @@
 from flask import Flask, render_template, Response
-import cv2
 from helper import realtime
-import pandas as pd
 
 app = Flask(__name__)
-
-
-# def generate_frames():
-#     image, result = realtime()
-#     ret, buffer = cv2.imencode('.jpg', image)
-#     image = buffer.tobytes()
-
-#     yield(b'--frame\r\n' b'Content-Type: image/jpeg\r\n\r\n' + image + b'\r\n')
-
 
 @app.route('/')
 def index():
