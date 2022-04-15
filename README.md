@@ -24,12 +24,16 @@
 
  ## To run the repository on the system:
    1. Clone the repository using "git clone https://github.com/tiwarishubham635/Hand-Gesture-Recognition-using-TinyML.git"
-   2. Open the command prompt and create a virtual environment (run ```pip install virtualenv``` if you have not installed virtualenv) by running the following command: <br/>
+   2. Open the command prompt and create a virtual environment (run ```pip install virtualenv``` if you have not installed virtualenv) by running the following command: <br/> <br/>
       ```
       python -m venv myenv
       .\myenv\Scripts\activate
       ```
-   3. Install the dependencies using the requirements.txt file. Just run: <br/>
-      ```pip install -r requirements.txt```
+   3. Install the dependencies using the requirements.txt file. Just run: <br/> <br/>
+      ```
+      pip install -r requirements.txt
+      ```
    4. Start the app by running: <br/>
-   ```python app.py```
+   ```
+   python app.py
+   ```
