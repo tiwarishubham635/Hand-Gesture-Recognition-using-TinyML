@@ -3,9 +3,15 @@
 ![Screenshot](Homepage.jpg)
 
  ## About
- This is a Hand Gesture Recognition System which aims to recognize the sign language representation of the English Alphabets like A, B and C. The system achieves the recognition ability with the help of TinyML technology which reduces the computations significantly. The recognition model is a LSTM model with 3 Layers of LSTM followed by 3 Dense Layers to produce the predicted alphabet. We take a sequence of pictures as input whose keypoints is identified using Mediapipe library which converts them into a multidimensional array and this array is fed as input to the model. It is built using Tensorflow Libraray and further Tensorflow Lite Libraray has been used to convert the Tensorflow model into Tensorflow Lite(TFLite) model. Further the TFLite model is also converted to a Quantized TFLite model which uses even lesser computations for recognition without much loss in the accuracy. 
+ This is a Hand Gesture Recognition System which aims to recognize the sign language representation of the English Alphabets like A, B and C. The system achieves the recognition ability with the help of TinyML technology which reduces the computations significantly. 
  <br/>
- The TFLite models work significantly well as it produces the same output as Tensorflow model in most cases (the difference in the prediction probability comes in 5th or 6th decimal place). The computations are significantly less for TFLite models. On comparison, the TFLite model does 0.0001 times the number of computations done by Tensorflow model while Quantized TFLite model does 0.00000001 times the number of computations done by Tensorflow model. Thus it shows that TinyML technology can help us perform high computation tasks on systems with lesser computation powers as well. Thus TinyML models are easily deployed on Arduinos, Microcontrollers and systems like Raspberry Pi. 
+ <br/>
+ The recognition model is a LSTM model with 3 Layers of LSTM followed by 3 Dense Layers to produce the predicted alphabet. We take a sequence of pictures as input whose keypoints is identified using Mediapipe library which converts them into a multidimensional array and this array is fed as input to the model. It is built using Tensorflow Libraray and further Tensorflow Lite Libraray has been used to convert the Tensorflow model into Tensorflow Lite(TFLite) model. Further the TFLite model is also converted to a Quantized TFLite model which uses even lesser computations for recognition without much loss in the accuracy. 
+ <br/>
+ <br/>
+ The TFLite models work significantly well as it produces the same output as Tensorflow model in most cases (the difference in the prediction probability comes in 5th or 6th decimal place). The computations are significantly less for TFLite models. 
+ <br/>
+ On comparison, the TFLite model does 0.0001 times the number of computations done by Tensorflow model while Quantized TFLite model does 0.00000001 times the number of computations done by Tensorflow model. Thus it shows that TinyML technology can help us perform high computation tasks on systems with lesser computation powers as well. Thus TinyML models are easily deployed on Arduinos, Microcontrollers and systems like Raspberry Pi. 
  Here, we have deployed this system on our Windows computer only for test purpose.
 
  ## Technologies used:
