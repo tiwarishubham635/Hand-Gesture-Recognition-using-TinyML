@@ -10,7 +10,7 @@
  <br/>
  <br/>
  The TFLite models work significantly well as it produces the same output as Tensorflow model in most cases (the difference in the prediction probability comes in 5th or 6th decimal place). The computations are significantly less for TFLite models. 
- <br/>
+ <br/><br/>
  On comparison, the TFLite model does 0.0001 times the number of computations done by Tensorflow model while Quantized TFLite model does 0.00000001 times the number of computations done by Tensorflow model. Thus it shows that TinyML technology can help us perform high computation tasks on systems with lesser computation powers as well. Thus TinyML models are easily deployed on Arduinos, Microcontrollers and systems like Raspberry Pi. 
  Here, we have deployed this system on our Windows computer only for test purpose.
 
